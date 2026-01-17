@@ -50,7 +50,7 @@ Since no backend/API was provided:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/axby1/SaaS-Dashboard.git
+git clone https://github.com/axby1/saas_dashboard.git
 cd app
 ```
 
@@ -72,6 +72,7 @@ npm run dev
 
 The project is deployed using **github pages**.
 
+https://saasdashboard-jet.vercel.app/
 
 
 ---
