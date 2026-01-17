@@ -14,7 +14,7 @@ const TotalSales = () => {
       <h6 className={`text-sm font-semibold text-text-primary`} >
         Total Sales
       </h6>
-        <div className="w-full h-[120px]">
+        <div className="w-full h-30">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Tooltip
@@ -59,7 +59,7 @@ const TotalSales = () => {
             </PieChart>
           </ResponsiveContainer>
         </div>
-        <div className='flex flex-col gap-[18px] text-xs font-light'>
+        <div className='flex flex-col gap-4.5 text-xs font-light'>
         {totalSales?.map((item, index) => (
           <div className="flex justify-between items-center" key={index} >
             <div className="flex items-center gap-1">

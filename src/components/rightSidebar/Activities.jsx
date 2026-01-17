@@ -17,11 +17,11 @@ const Activities = () => {
             />
             {activities?.length - 1 !== index && (
               <div
-                className={`h-[14px] w-[1px] absolute top-[80%] my-3 bg-border-primary`}
+                className={`h-3.5 w-px absolute top-[80%] my-3 bg-border-primary`}
               ></div>
             )}
           </span>
-          <div className="text-start col-span-5 font-light space-y-[1px]">
+          <div className="text-start col-span-5 font-light space-y-px">
             <p className={`text-sm line-clamp-1`} >
               {activity?.message}
             </p>

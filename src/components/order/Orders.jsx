@@ -71,12 +71,12 @@ const Orders = () => {
               value={state.searchedOrder}
               placeholder="Search"
               onChange={(e) => handleSearchedOrder(e)}
-              className={`border-none outline-none bg-transparent w-[100px] text-sm text-text-primary placeholder:text-text-muted`}
+              className={`border-none outline-none bg-transparent w-25 text-sm text-text-primary placeholder:text-text-muted`}
             />
           </div>
         </div>
         <div className="w-full overflow-x-auto md:overflow-visible">
-          <div className="min-w-[768px] md:min-w-full">
+          <div className="min-w-3xl md:min-w-full">
             <OrderTable
               searchedOrder={state?.searchedOrder}
               isSortByStatus={state?.isSortByStatus}

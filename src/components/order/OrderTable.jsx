@@ -94,9 +94,9 @@ const OrderTable = ({ searchedOrder, isSortByStatus, currentPage }) => {
 
   return (
     <div className="w-full text-text-primary text-xs">
-      <table className="w-full text-sm text-left rtl:text-right min-w-[768px]">
+      <table className="w-full text-sm text-left rtl:text-right min-w-3xl">
         <thead>
-          <tr className="border-b-[1.3px] border-border-primary text-text-muted text-xs [&>*]:font-light [&>*]:text-xs">
+          <tr className="border-b-[1.3px] border-border-primary text-text-muted text-xs *:font-light *:text-xs">
             <th className="px-2 py-2">
               {isAllChecked ? (
                 <MdCheckBox
@@ -128,7 +128,7 @@ const OrderTable = ({ searchedOrder, isSortByStatus, currentPage }) => {
             return (
               <tr
                 key={order.id}
-                className="group border-b-[0.3px] border-border-primary hover:bg-bg-surface-light [&>*]:font-light [&>*]:text-xs [&>*]:py-2"
+                className="group border-b-[0.3px] border-border-primary hover:bg-bg-surface-light *:font-light *:text-xs *:py-2"
               >
                 <td className="px-2 py-2 rounded-l-md group text-text-muted">
                   {isChecked ? (

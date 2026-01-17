@@ -20,7 +20,7 @@ const RevenueLocation = () => {
         className="w-full"
       />
       {revenueLocations?.map((item, i) => (
-        <div key={i} className="flex flex-col gap-[2px] justify-between">
+        <div key={i} className="flex flex-col gap-0.5 justify-between">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <p className={`font-normal text-text-primary`}>{item?.place}</p>
@@ -33,7 +33,7 @@ const RevenueLocation = () => {
               {item?.revenue}K
             </p>
           </div>
-          <div className={`h-[2px] rounded-full bg-bg-surface-blue-lighter`}>
+          <div className={`h-0.5 rounded-full bg-bg-surface-blue-lighter`}>
             <div
               className="h-full rounded-full bg-bg-secondary-cyan"
               style={{ width: `${item?.revenue}%` }}

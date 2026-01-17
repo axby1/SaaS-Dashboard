@@ -12,7 +12,7 @@ const Notifications = () => {
           <span className={`size-6 flex items-center justify-center rounded-md ${note?.color}`} >
             <note.icon size={16} strokeWidth={1.5} className="text-[#1C1C1C]" />
           </span>
-          <div className="text-start col-span-5 font-light space-y-[1px]">
+          <div className="text-start col-span-5 font-light space-y-px">
             <p className={`text-sm line-clamp-1`} >
               {note?.message}
             </p>

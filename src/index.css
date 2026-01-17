@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import "tailwindcss";
 
-/* Optional: import other Tailwind plugins if needed */
-/* @import "tw-animate-css"; */
-
 /* Custom variant for dark mode inside `.dark` */
 @custom-variant dark (&:is(.dark *));
 

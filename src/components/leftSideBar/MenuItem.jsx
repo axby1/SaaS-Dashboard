@@ -34,7 +34,7 @@ const MenuItem = ({ page, index }) => {
           page?.children?.map((page, i) => (
             <div
               key={i}
-              className={`hover:bg-bg-hover group relative px-[50px] py-1 flex items-center rounded-md cursor-pointer transition-transform hover:scale-105 duration-500 ease-in-out`}
+              className={`hover:bg-bg-hover group relative px-12.5 py-1 flex items-center rounded-md cursor-pointer transition-transform hover:scale-105 duration-500 ease-in-out`}
             >
               <p>{page?.name}</p>
             </div>

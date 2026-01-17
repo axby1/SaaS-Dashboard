@@ -1,16 +1,87 @@
-# React + Vite
+# SaaS Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is an implementation of a SaaS dashboard.
+The goal is to accurately translate design specs into a responsive, accessible, and performant React application with meaningful motion and microinteractions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No backend is used. All data is mocked locally to demonstrate UI behavior such as sorting, filtering, pagination, and theming.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* **React (ES6+)**
+* **CSS3** (Flexbox, CSS variables for theming)
+* **Framer Motion** (animations & microinteractions)
+* **Vite** (fast development & build)
+* **React Context / Redux** (theme & UI state)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features Implemented
+
+* Light & Dark theme support
+* Responsive layout (Desktop / Tablet / Mobile)
+* Sidebar navigation
+* Tables with:
+
+  * Sorting
+  * Filtering
+  * Searching
+  * Pagination
+* Smooth animations & microinteractions
+* Cross-browser compatibility
+
+---
+
+## Mock Data Strategy
+
+Since no backend/API was provided:
+
+* Static mock data is used (`/src/utils/data.js`)
+* Simulates real dashboard behavior
+* Designed to be easily replaceable with API data later
+
+---
+
+## Setup & Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/axby1/SaaS-Dashboard.git
+cd app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Deployment
+
+The project is deployed using **github pages**.
+
+**Live Demo:**
+
+
+---
+
+
+
+
+
+
+
+
+

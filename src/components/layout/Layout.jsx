@@ -68,7 +68,7 @@ const Layout = () => {
       )}
 
       {/* Main Content */}
-      <div className={`border-x-[1px] border-border-primary min-h-screen ${getContentColSpan()}`}>
+      <div className={`border-x border-border-primary min-h-screen ${getContentColSpan()}`}>
         <Header />
         <div className="p-8">
           <Outlet />

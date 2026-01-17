@@ -16,7 +16,7 @@ const Metrics = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="grid grid-cols-1 xl:grid-cols-2 gap-7 xl:h-[252px] text-text-primary">
+    <section className="grid grid-cols-1 xl:grid-cols-2 gap-7 xl:h-63 text-text-primary">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-7 animate-fade">
         {statusCard?.map((card, index) => {
           return (
@@ -48,7 +48,7 @@ const Metrics = () => {
         })}
       </div>
 
-      <div className={`max-xl:h-[252px] py-6 pr-4 flex flex-col gap-4 bg-bg-surface-light rounded-2xl animate-fade text-text-secondary overflow-hidden`} >
+      <div className={`max-xl:h-63 py-6 pr-4 flex flex-col gap-4 bg-bg-surface-light rounded-2xl animate-fade text-text-secondary overflow-hidden`} >
         <h6 className={`px-6 text-sm font-semibold text-text-primary`} >
           Projections vs Actuals
         </h6>

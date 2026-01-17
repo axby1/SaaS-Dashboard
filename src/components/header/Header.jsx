@@ -29,13 +29,13 @@ const Header = () => {
   const handleSearchInput = (e) => setSearchInput(e.target.value);
 
   return (
-    <div className="px-7 py-5 flex items-center justify-between text-text-primary border-b-1 border-border-primary bg-bg-base z-10 transition-transform duration-500 text-sm">
+    <div className="px-7 py-5 flex items-center justify-between text-text-primary border-b border-border-primary bg-bg-base z-10 transition-transform duration-500 text-sm">
       <div className="flex items-center gap-2">
         <figure className="flex items-center lg:hidden">
           <img
             src={userProfile}
             alt="User Profile"
-            className="w-[20px] h-[20px] rounded-full object-cover"
+            className="w-5 h-5 rounded-full object-cover"
           />
           <h1 className="text-sm font-normal ps-2">ByeWind</h1>
         </figure>

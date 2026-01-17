@@ -89,7 +89,7 @@ const LeftSideBar = () => {
           <div key={i} className="px-2 py-1 cursor-pointer">
             <div className="flex gap-1 items-center">
               <span className="size-4 flex items-center justify-center">
-                <span className="size-[6px] rounded-full bg-text-muted"></span>
+                <span className="size-1.5 rounded-full bg-text-muted"></span>
               </span>
               <p className="text-text-primary">{name}</p>
             </div>
@@ -117,7 +117,7 @@ const LeftSideBar = () => {
               `}
             >
               <span
-                className={`absolute left-0 h-[15px] w-1 bg-bg-surface-dark rounded-full ${
+                className={`absolute left-0 h-3.75 w-1 bg-bg-surface-dark rounded-full ${
                   isActive ? "visible" : "hidden"
                 }`}
               ></span>
