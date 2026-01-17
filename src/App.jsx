@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Ecommerce from "./components/ecommerce/Ecommerce";
+import Ecommerce from "./components/eCommerce/Ecommerce";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 import Orders from "./components/order/Orders";
 import Layout from "./components/layout/Layout";

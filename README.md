@@ -72,7 +72,6 @@ npm run dev
 
 The project is deployed using **github pages**.
 
-**Live Demo:**
 
 
 ---
