@@ -8,7 +8,7 @@ import {
   setLeftSidebar,
 } from "../../store/layoutSlice";
 
-import Header from "../Header/Header";
+import Header from "../header/Header";
 import LeftSideBar from "../leftSideBar/LeftSideBar";
 import RightSideBar from "../rightSidebar/RightSideBar";
 import useScreenSize from "../../hooks/userScreenSize";
